@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var _person = personIdentity(name:"xxx",age:10);
+        let _person = personIdentity(name:"xxx",age:10);
+        var  s =  _person.isfromLanzhou();
         
         
 //        let size2 = MemoryLayout<PointClass>.size;
@@ -33,6 +34,15 @@ class ViewController: UIViewController {
     
         // 7
         print("Loops: " + loopsCount.description + ", Set contents: " + stringSet.description)
+        
+        
+        var shoppingList = ["catfish", "water", "tulips", "blue paint"]
+        shoppingList[0] = "bottle of water"
+        var occupations = [
+            "Malcolm": "Captain",
+            "Kaylee": "Mechanic",
+            ]
+        occupations["Jayne"] = "Public Relations"
         
     }
 
