@@ -7,12 +7,18 @@
 //
 
 import UIKit
+//import personIdentity
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var _person = personIdentity(name:"xxx",age:10);
+        
+        
+//        let size2 = MemoryLayout<PointClass>.size;
+//        print(size2);
         
         let names = ["John", "Paul", "George", "Ringo", "Mick", "Keith", "Charlie", "Ronnie"]
         var stringSet = Set<String>() // 1
