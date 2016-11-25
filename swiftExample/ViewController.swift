@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         let _person = personIdentity(name:"xxx",age:10);
         var  s =  _person.isfromLanzhou();
         
+        Closures();
+        
         
 //        let size2 = MemoryLayout<PointClass>.size;
 //        print(size2);
@@ -43,6 +45,10 @@ class ViewController: UIViewController {
             "Kaylee": "Mechanic",
             ]
         occupations["Jayne"] = "Public Relations"
+        
+        
+        
+        Functions();
         
     }
 

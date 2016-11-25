@@ -32,7 +32,6 @@ class personIdentity: NSObject,personIdentityProtocol  {
     }
     
     deinit {
-        
     }
 
 }
